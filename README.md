@@ -1,5 +1,7 @@
 # powergrid-viewer
 
+Implementation of Powergrid's viewer. Check out the [engine](powergrid) and [our platform](//boardgamers.space).
+
 ## Project setup
 ```
 yarn install
