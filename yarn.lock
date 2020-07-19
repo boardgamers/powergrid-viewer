@@ -828,6 +828,14 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@boardgamers/powergrid@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@boardgamers/powergrid/-/powergrid-0.0.1.tgz#30e23e3c0b532b95dac9554677b2ced6fde0e11d"
+  integrity sha512-Ici55rpFUFGPgFeOp8ZRID0FpxoVlp3RNHw62Z5Go926VdteYbpXG/rMURFJfyUHnVEW4XhdcVIbCylZ5uEbpw==
+  dependencies:
+    lodash "^4.17.15"
+    seedrandom "^3.0.5"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -7965,6 +7973,11 @@ schema-utils@^2.0.0, schema-utils@^2.5.0, schema-utils@^2.6.1, schema-utils@^2.6
     "@types/json-schema" "^7.0.4"
     ajv "^6.12.2"
     ajv-keywords "^3.4.1"
+
+seedrandom@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/seedrandom/-/seedrandom-3.0.5.tgz#54edc85c95222525b0c7a6f6b3543d8e0b3aa0a7"
+  integrity sha512-8OwmbklUNzwezjGInmZ+2clQmExQPvomqjL7LFqOYqtmuxRgQYqOD3mHaU+MvZn5FLUeVxVfQjwLZW/n/JFuqg==
 
 select-hose@^2.0.0:
   version "2.0.0"
