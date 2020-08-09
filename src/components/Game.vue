@@ -37,3 +37,11 @@ export default class Game extends Vue {
   }
 }
 </script>
+<style lang="scss">
+text {
+  font-family: 'Arial';
+  pointer-events: none;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+</style>

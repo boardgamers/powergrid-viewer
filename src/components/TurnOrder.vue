@@ -1,7 +1,6 @@
 <template>
   <g v-if="turnOrder">
-    <circle v-for="(x,i) in turnOrder" :fill=x r=10 :cx="i*25" :stroke-width="x === G.currentPlayer ? 3 : 0" stroke=black :key=x />
-    {{G.currentPlayer}}
+    <circle v-for="(x,i) in turnOrder" :fill=x r=12 :cx="i*30" :stroke-width="x === G.currentPlayer ? 2 : 0" stroke=cyan :key=x />
   </g>
 </template>
 <script lang="ts">
